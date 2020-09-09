@@ -129,3 +129,4 @@ jobs:
       run: |
         python ./packages/schema/generate-spec.py -f markdown > spec.md
         diff -u ./packages/schema/jupyterwidgetmodels.latest.md ./spec.md
+##
